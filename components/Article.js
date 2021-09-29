@@ -86,6 +86,15 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'Software Engineering "Best Practices"',
+    date: 'Sep 29th, 2021',
+    firstParagraph: `step one: write the code and make sure that it works`,
+
+    secondParagraph: `step two: reflect on your code and see what works and what doesn't. What you like / what you don't like`,
+
+    thirdParagraph: `step three: recode making those small adjustments or take a radical approach`
   }
 ];
 
