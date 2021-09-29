@@ -95,6 +95,24 @@ const data = [
     secondParagraph: `step two: reflect on your code and see what works and what doesn't. What you like / what you don't like`,
 
     thirdParagraph: `step three: recode making those small adjustments or take a radical approach`
+  },
+  {
+    title: 'My day today',
+    date: 'Sep 29th, 2021',
+    firstParagraph: `Wake up and get on zoom`,
+
+    secondParagraph: `work through guided project`,
+
+    thirdParagraph: `Work on Module 3 Project`
+  },
+  {
+    title: 'This is fun',
+    date: 'Sep 29th, 2021',
+    firstParagraph: `yay`,
+
+    secondParagraph: `..yay`,
+
+    thirdParagraph: `...yay`
   }
 ];
 
@@ -169,5 +187,3 @@ const articleElems = data.map(elem => articleMaker(elem));
 
 // appending content to the DOM
 articleElems.forEach(elemToAdd => articles.appendChild(elemToAdd));
-
-

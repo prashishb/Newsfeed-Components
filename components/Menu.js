@@ -60,4 +60,5 @@ function menuMaker(menuItems) {
   return menu;
 }
 
+//appending menu to header
 header.appendChild(menuMaker(menuItems));
